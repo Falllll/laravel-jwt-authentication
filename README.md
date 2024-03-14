@@ -1,8 +1,8 @@
-##Laravel JWT Authentication Example
+## Laravel JWT Authentication Example
 
 This repository provides a straightforward example of implementing JSON Web Token (JWT) authentication in a Laravel application. JSON Web Tokens offer a lightweight and secure method for authenticating users in web applications, particularly useful for stateless microservices architectures or API-driven applications.
 
-##Key Features:
+## Key Features:
 
 Demonstrates how to integrate JWT authentication into a Laravel project.
 Simple setup and configuration, suitable for small to medium-sized projects.
