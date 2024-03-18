@@ -72,4 +72,13 @@ class AuthController extends Controller
     {
         return response()->json([auth()->user()]);
     }
+
+    public function logout()
+    {
+        auth()->logout();
+
+        return response([
+            'message' => 'User Logged out'
+        ]);
+    }
 }

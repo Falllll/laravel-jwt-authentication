@@ -24,4 +24,5 @@ $router->group(['prefix' => 'api', 'namespace' => 'Auth'], function () use ($rou
     $router->post('/register', 'AuthController@register');
     $router->post('/login', 'AuthController@login');
     $router->get('/profile', 'AuthController@profile');
+    $router->post('/logout', 'AuthController@logout');
 });
